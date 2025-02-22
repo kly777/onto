@@ -42,4 +42,3 @@ An interpretation (or model) of a first-order formula specifies what each predic
 
 There are two key parts of first-order logic. The syntax determines which finite sequences of symbols are well-formed expressions in first-order logic, while the semantics determines the meanings behind these expressions.
 一阶 logic有两个关键部分。语法确定哪些有限符号序列是一阶逻辑中格式正确的表达式，而语义确定这些表达式背后的含义。
-
