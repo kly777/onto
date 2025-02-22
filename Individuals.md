@@ -1,0 +1,7 @@
+# Individuals 个体
+
+Individuals (instances) are the basic, "ground level" components of an ontology. The individuals in an ontology may include concrete objects such as people, animals, tables, automobiles, molecules, and planets, as well as abstract individuals such as numbers and words (although there are differences of opinion as to whether numbers and words are classes or individuals). Strictly speaking, an ontology need not include any individuals, but one of the general purposes of an ontology is to provide a means of classifying individuals, even if those individuals are not explicitly part of the ontology.
+个体（实例）是本体的基本 “底层” 组件。本体中的个体可以包括具体对象，如人、动物、桌子、汽车、分子和行星，以及抽象的个体，如数字和单词（尽管对于数字和单词是类还是个体存在意见分歧）。严格来说，本体论不需要包括任何个体，但本体论的一般目的之一是提供一种对个体进行分类的方法，即使这些个体没有明确地属于本体论。
+
+In formal extensional ontologies, only the utterances of words and numbers are considered individuals – the numbers and names themselves are classes. In a 4D ontology, an individual is identified by its spatio-temporal extent. Examples of formal extensional ontologies are BORO, ISO 15926 and the model in development by the IDEAS Group.
+在正式的外延本体论中，只有单词和数字的话语被认为是个体——数字和名称本身就是类。在 4D 本体中，个体通过其时空范围进行标识。正式的扩展本体的例子是 BORO、ISO 15926 和 IDEAS Group 正在开发的模型。

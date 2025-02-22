@@ -1,0 +1,45 @@
+# First-order logic
+—also called predicate logic, predicate calculus, quantificational logic—is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables. Rather than propositions such as "all men are mortal", in first-order logic one can have expressions in the form "for all x, if x is a man, then x is mortal"; where "for all x" is a quantifier, x is a variable, and "... is a man" and "... is mortal" are predicates.[1] This distinguishes it from propositional logic, which does not use quantifiers or relations;[2]: 161  in this sense, propositional logic is the foundation of first-order logic.
+一阶逻辑（也称为谓词逻辑、谓词演算、量化逻辑）是数学、哲学、语言学和计算机科学中使用的形式系统的集合。一阶逻辑在非逻辑对象上使用量化变量，并允许使用包含变量的句子。在一阶逻辑中，人们可以有“对于所有 x，如果 x 是人，那么 x 是凡人”等形式的表达，而不是“所有的人都是凡人”;其中 “for all x” 是量词，x 是变量，“...是个男人“和”......是必死的“是谓词。[1] 这与不使用量词或关系的命题逻辑区分开来;[2]： 161 从这个意义上说，命题逻辑是一阶逻辑的基础。
+
+A theory about a topic, such as set theory, a theory for groups,[3] or a formal theory of arithmetic, is usually a first-order logic together with a specified domain of discourse (over which the quantified variables range), finitely many functions from that domain to itself, finitely many predicates defined on that domain, and a set of axioms believed to hold about them. "Theory" is sometimes understood in a more formal sense as just a set of sentences in first-order logic.
+关于某个主题的理论，例如集合论、群论[3] 或正式的算术理论，通常是一阶逻辑以及指定的话语域（量化变量的范围）、从该域到自身的有限多个函数、在该域上定义的有限多个谓词，以及一组被认为成立它们的公理。“理论”有时在更正式的意义上被理解为只是一阶逻辑中的一组句子。
+
+The term "first-order" distinguishes first-order logic from higher-order logic, in which there are predicates having predicates or functions as arguments, or in which quantification over predicates, functions, or both, are permitted.[4]: 56  In first-order theories, predicates are often associated with sets. In interpreted higher-order theories, predicates may be interpreted as sets of sets.
+术语“一阶”将一阶逻辑与高阶逻辑区分开来，在高阶逻辑中，存在将谓词或函数作为参数的谓词，或者允许对谓词和/或函数进行量化。[4]： 56 在一阶理论中，谓词通常与集合相关联。在解释的高阶理论中，谓词可以解释为集合的集合。
+
+There are many deductive systems for first-order logic which are both sound, i.e. all provable statements are true in all models; and complete, i.e. all statements which are true in all models are provable. Although the logical consequence relation is only semidecidable, much progress has been made in automated theorem proving in first-order logic. First-order logic also satisfies several metalogical theorems that make it amenable to analysis in proof theory, such as the Löwenheim–Skolem theorem and the compactness theorem.
+一阶逻辑有许多演绎系统，它们都是合理的，即所有可证明的陈述在所有模型中都是正确的;和 complete，即所有模型中为 true 的陈述都是可证明的。尽管逻辑结果关系只是半可判定的，但在一阶逻辑中的自动定理证明方面已经取得了很大进展。一阶逻辑还满足几个元逻辑定理，使其适合在证明论中进行分析，例如 Löwenheim-Skolem 定理和紧缩定理。
+
+First-order logic is the standard for the formalization of mathematics into axioms, and is studied in the foundations of mathematics. Peano arithmetic and Zermelo–Fraenkel set theory are axiomatizations of number theory and set theory, respectively, into first-order logic. No first-order theory, however, has the strength to uniquely describe a structure with an infinite domain, such as the natural numbers or the real line. Axiom systems that do fully describe these two structures, i.e. categorical axiom systems, can be obtained in stronger logics such as second-order logic.
+一阶逻辑是将数学形式化为公理的标准，并在数学基础中进行了研究。Peano 算术和 Zermelo-Fraenkel 集合论分别是数论和集合论的公理化为一阶逻辑。然而，没有一阶理论有能力唯一地描述具有无限域的结构，例如自然数或实线。确实完全描述了这两种结构的公理系统，即分类公理系统，可以在更强的逻辑中获得，例如二阶逻辑。
+
+The foundations of first-order logic were developed independently by Gottlob Frege and Charles Sanders Peirce.[5] For a history of first-order logic and how it came to dominate formal logic, see José Ferreirós (2001).
+一阶逻辑的基础是由 Gottlob Frege 和 Charles Sanders Peirce 独立开发的。[5] 关于一阶逻辑的历史以及它如何主导形式逻辑，参见 José Ferreirós （2001）。
+
+## Introduction
+
+While propositional logic deals with simple declarative propositions, first-order logic additionally covers predicates and quantification. A predicate evaluates to true or false for an entity or entities in the domain of discourse.
+命题逻辑处理简单的陈述性命题，而一阶逻辑还涵盖谓词和量化。谓词的计算结果为 true 或 false 话语域中的一个或多个实体。
+
+Consider the two sentences "Socrates is a philosopher" and "Plato is a philosopher". In propositional logic, these sentences themselves are viewed as the individuals of study, and might be denoted, for example, by variables such as p and q. They are not viewed as an application of a predicate, such as isPhil {\displaystyle {\text{isPhil}}}, to any particular objects in the domain of discourse, instead viewing them as purely an utterance which is either true or false.[6] However, in first-order logic, these two sentences may be framed as statements that a certain individual or non-logical object has a property. In this example, both sentences happen to have the common form isPhil ( x ) {\displaystyle {\text{isPhil}}(x)} for some individual x {\displaystyle x}, in the first sentence the value of the variable x is "Socrates", and in the second sentence it is "Plato". Due to the ability to speak about non-logical individuals along with the original logical connectives, first-order logic includes propositional logic.[7]: 29–30 
+考虑一下“苏格拉底是一位哲学家”和“柏拉图是一位哲学家”这两句话。在命题逻辑中，这些句子本身被视为研究的个体，并且可能由 p 和 q 等变量表示。它们不被视为谓词（例如 isPhil {\displaystyle {\text{isPhil}}}）对话语领域中任何特定对象的应用，而是将它们视为纯粹的话语，要么是真，要么是假。undefined 然而，在一阶逻辑中，这两个句子可以被框定为某个单个或非逻辑对象具有属性的陈述。在这个例子中，两个句子恰好都有某个个体 x {\displaystyle x} 的通用形式 isPhil ( x ) {\displaystyle {\text{isPhil}}(x)}，在第一句中，变量 x 的值是“苏格拉底”，在第二句中是“柏拉图”。由于能够谈论非逻辑个体以及原始逻辑连接词，一阶逻辑包括命题逻辑。undefined: 29–30
+
+The truth of a formula such as "x is a philosopher" depends on which object is denoted by x and on the interpretation of the predicate "is a philosopher". Consequently, "x is a philosopher" alone does not have a definite truth value of true or false, and is akin to a sentence fragment.[8] Relationships between predicates can be stated using logical connectives. For example, the first-order formula "if x is a philosopher, then x is a scholar", is a conditional statement with "x is a philosopher" as its hypothesis, and "x is a scholar" as its conclusion, which again needs specification of x in order to have a definite truth value.
+诸如“x is a philosopher”之类的公式的真值取决于 x 表示的宾语以及谓词“is a philosopher”的解释。因此，“x is a philosopher”本身没有确定的真值 true 或 false，类似于一个句子片段。[8] 谓词之间的关系可以使用逻辑连接词来表示。例如，一阶公式“如果 x 是哲学家，那么 x 是学者”，是一个条件陈述，以“x 是哲学家”为假设，“x 是学者”为结论，它再次需要指定 x 才能获得确定的真值。
+
+Quantifiers can be applied to variables in a formula. The variable x in the previous formula can be universally quantified, for instance, with the first-order sentence "For every x, if x is a philosopher, then x is a scholar". The universal quantifier "for every" in this sentence expresses the idea that the claim "if x is a philosopher, then x is a scholar" holds for all choices of x.
+量词可以应用于公式中的变量。前面公式中的变量 x 可以普遍量化，例如，一阶句子“对于每个 x，如果 x 是哲学家，那么 x 就是学者”。这句话中的通用量词 “for every” 表达了这样一个观点，即 “如果 x 是哲学家，那么 x 是学者” 的说法适用于 x 的所有选择。
+
+The negation of the sentence "For every x, if x is a philosopher, then x is a scholar" is logically equivalent to the sentence "There exists x such that x is a philosopher and x is not a scholar". The existential quantifier "there exists" expresses the idea that the claim "x is a philosopher and x is not a scholar" holds for some choice of x.
+句子“对于每个 x，如果 x 是哲学家，那么 x 是学者”这句话的否定在逻辑上等同于“存在 x，使得 x 是哲学家，而 x 不是学者”。存在主义量词“存在”表达了“x 是哲学家而 x 不是学者”的说法对 x 的某种选择成立的想法。
+
+The predicates "is a philosopher" and "is a scholar" each take a single variable. In general, predicates can take several variables. In the first-order sentence "Socrates is the teacher of Plato", the predicate "is the teacher of" takes two variables.
+谓词 “is a philosopher” 和 “is a scholar” 各取一个变量。通常，谓词可以采用多个变量。在一阶句子“苏格拉底是柏拉图的老师”中，谓词“是老师”包含两个变量。
+
+An interpretation (or model) of a first-order formula specifies what each predicate means, and the entities that can instantiate the variables. These entities form the domain of discourse or universe, which is usually required to be a nonempty set. For example, consider the sentence "There exists x such that x is a philosopher." This sentence is seen as being true in an interpretation such that the domain of discourse consists of all human beings, and that the predicate "is a philosopher" is understood as "was the author of the Republic." It is true, as witnessed by Plato in that text.[clarification needed]
+一阶公式的解释（或模型）指定每个谓词的含义，以及可以实例化变量的实体。这些实体构成了 discourse 或 universe 的域，通常要求它是一个非空的集合。例如，考虑句子 “There exists x so that x is a philosopher.”这句话在解释中被视为正确，这样话语的领域由所有人类组成，而谓词“is a philosopher”被理解为“was the author of the Republic”。这是真的，正如柏拉图在那段经文中所见证的那样。[需要澄清]
+
+There are two key parts of first-order logic. The syntax determines which finite sequences of symbols are well-formed expressions in first-order logic, while the semantics determines the meanings behind these expressions.
+一阶 logic有两个关键部分。语法确定哪些有限符号序列是一阶逻辑中格式正确的表达式，而语义确定这些表达式背后的含义。
+
