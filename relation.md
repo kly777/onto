@@ -115,6 +115,7 @@ Various types of relations are distinguished in the academic literature based on
 
 An influential distinction differentiates between internal and external relations. A relation is internal if it only depends on what the relata are like: it is determined by the characteristics or the nature of the relata alone. External relations are not fixed this way and carry characteristics that go beyond the intrinsic features of their relata.[35] Mathematical relations between numbers are examples of internal relations. For instance, the number six stands in the relation of being greater than to the number five. This relation is internal because it is essential to the numbers six and five that six is greater than five.[36] Other traditional examples of internal relations are resemblance and difference.[37] Spatial relations are normally understood as external relations, like the relation of a book to the table it is lying on.[38] The same is true for temporal and causal relations.[37]
 有影响力的区别区分了内部关系和外部关系。如果一个关系只取决于相对关系是什么样的，那么它就是内部的：它是由相对关系的特征或性质单独决定的。外部关系不是以这种方式固定的，它所具有的特征超出了其关系的内在特征。[35] 数字之间的数学关系是内部关系的例子。例如，数字 6 代表大于数字 5 的关系。这种关系是内在的，因为对于数字 6 和 5 来说，6 大于 5 是必不可少的。[36] 内部关系的其他传统例子是相似性和差异性。[37]空间关系通常被理解为外部关系，就像一本书与它所躺着的桌子的关系一样。[38] 时间关系和因果关系也是如此。[37]
+
 Photo of George Edward Moore
 G. E. Moore introduced the distinction between internal and external relations.[16]
 
@@ -127,10 +128,10 @@ The difference between these definitions affects whether some relations are char
 The difference between internal and external relations has various consequences for the ontological status of relations.[44] According to a common view, internal relations do not form part of reality on the most fundamental level since they supervene on their relata. In this regard, they are already included in some sense in the relata and constitute no addition to being.[45] That is not the case for external relations, which are more than the entities they connect and thus introduce additional ontological commitments.[46] Discussions about the existence of relations usually focus on the question of whether external relations exist.[47] One difficulty in this regard is where to locate them since it seems that they are not contained within the relata while they also cannot exist without them.[48]
 内部和外部关系之间的差异对关系的本体论地位有各种影响。[44]根据一种普遍的观点，内部关系在最基本的层面上并不构成现实的一部分，因为它们依赖于它们的关系。在这方面，它们在某种意义上已经包含在相对论中，并不构成对存在的补充。[45]外部关系并非如此，外部关系不仅仅是它们所连接的实体，因此引入了额外的本体论承诺。[46]关于关系存在的讨论通常集中在外部关系是否存在的问题上。[47]这方面的一个困难是在哪里找到它们，因为它们似乎不包含在相对论中，而没有它们也无法存在。[48]
 
-### Formal and material 形式和材料
+### Formal and material 形式的和物质的
 
 Another distinction is between formal and material relations,[49] sometimes also termed thin and thick relations.[50] Formal relations involve abstract ideas that do not carry any concrete content. According to a commonly held view, all formal relations are internal.[51] They are often characterized as topic-neutral, meaning that they pertain to all categories of being.[52] Material relations are associated with concrete ideas. They involve specific and substantial contents that are accessible to perceptual experience. Examples of formal relations are identity, entailment, being greater than, set membership, and resemblance. By contrast, the relations of collision, smiling, loving, killing, and giving are material relations.[53]
-另一个区别是形式关系和物质关系，[49] 有时也称为薄关系和厚关系。[50]形式关系涉及不携带任何具体内容的抽象概念。根据一种普遍的观点，所有正式关系都是内部的。[51]它们通常被描述为主题中立的，这意味着它们与所有类别的存在有关。[52]物质关系与具体的想法有关。它们涉及感知经验可访问的特定和实质性内容。正式关系的例子是身份、蕴涵、大于、集合成员资格和相似性。相比之下，碰撞、微笑、爱、杀戮和给予的关系是物质关系。[53]
+另一个区别是形式关系和物质关系，有时也称为“薄关系”和“厚关系”。形式关系涉及不包含具体内容的抽象概念。根据普遍观点，所有形式关系都是内在的。它们通常被描述为话题中立的，意味着它们适用于所有的存在范畴。物质关系则与具体的观念相关。它们涉及可以通过感知经验获得的具体和实质性内容。形式关系的例子包括同一性、蕴涵、大于关系、集合成员资格和相似性。相反地，碰撞、微笑、爱、杀戮和给予等关系是物质关系。
 
 ### Logical and causal 逻辑和因果关系
 

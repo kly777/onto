@@ -17,7 +17,7 @@ Outside set theory, the word "class" is sometimes used synonymously with "set". 
 The collection of all algebraic structures of a given type will usually be a proper class. Examples include the class of all groups, the class of all vector spaces, and many others. In category theory, a category whose collection of objects forms a proper class (or whose collection of morphisms forms a proper class) is called a large category.
 给定类型的所有代数结构的集合通常是一个合适的类。示例包括 all groups 的 class、all vector spaces 的 class 等等。在范畴论中，其对象集合形成适当类（或其形态集合形成适当类）的类别称为大类别。
 
-The surreal numbers are a proper class of objects that have the properties of a field.
+The surreal numbers are a proper class of objects that have the properties of a fieldi.
 超实数是一类具有字段属性的适当对象。
 
 Within set theory, many collections of sets turn out to be proper classes. Examples include the class of all sets (the universal class), the class of all ordinal numbers, and the class of all cardinal numbers.

@@ -40,19 +40,19 @@ Studer 等人在对本体做了深入研究后，扩展了 Gruber 的定义，�
 
 Perez 归纳的 5 个基本建模元语：
 
-1. **类（Classes）或概念（Concepts）**  
+1. **类（Classes）或概念（Concepts）**
    表示对象的集合，包含名称、关系集合和自然语言描述
 
-2. **关系（Relations）**  
+2. **关系（Relations）**
    概念间的交互作用，如子类关系（subClassOf）
 
-3. **函数（Functions）**  
+3. **函数（Functions）**
    特殊关系，如 motherOf(x, y)
 
-4. **公理（Axioms）**  
+4. **公理（Axioms）**
    永真断言，如概念乙属于概念甲的范围
 
-5. **实例（Instances）**  
+5. **实例（Instances）**
    表示具体对象
 
 本体中的知识是通过类、关系、函数、公理和实例来形式化地表示的[20]。Perez 等人用分类法组织了本体，归纳出 5 个基本的建模元语[24]：
