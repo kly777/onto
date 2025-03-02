@@ -1,6 +1,7 @@
 # Object 对象
 
 _First published Thu Oct 26, 2017; substantive revision Fri Nov 3, 2023_
+*首次发表于 2017 年 10 月 26 日星期四;实质性修订 2023 年 11 月 3 日星期五*
 
 One task of metaphysics is to carve reality into categories.\[[1](notes.html#note-1)\] Some things could have failed to exist; they fall under the category _contingent being_. Some are events; they fall under _event_. And so on. One might well wonder—is there a category under which _every thing_ falls? Offering an informative account of such a category is no easy task. For nothing would distinguish things that fall under it from those that don’t—there being, after all, none of the latter. It seems hard, then, to say much about any fully general category; and it would appear to do no carving or categorizing or dividing at all. Nonetheless there are candidates for such a fully general office, including _thing_, _being, entity_, _item_, _existent_, and—especially—_object_.\[[2](notes.html#note-2)\]
 形而上学的任务之一是将现实划分为类别。有些事物可能不存在;他们属于 CONTINGY BEING 类别。有些是事件;它们属于 event 项下。等等。人们可能会想——有没有一个类别把所有事物都归入这个类别呢？提供这样一个类别的信息描述并非易事。因为没有什么能区分属于它的事物和不属于它的事物——毕竟，后者根本就不存在。那么，似乎很难对任何完全一般的类别说太多;而且它似乎根本没有进行雕刻、分类或划分。尽管如此，这样一个完全通用的职位还是有候选人的，包括事物、存在、实体、项目、存在，尤其是对象。
@@ -20,46 +21,39 @@ Accounts of _object_, then, differ with respect to whether there are non-objects
 Each of these questions admits of various specifications and answers that we will consider in turn. Our focus will be largely theoretical and taxonomical, so we will only occasionally refer to historical sources. Our topic is abstract and broad, and touches on a number of issues in metaphysics that already enjoy coverage in this _Encyclopedia_. Our discussion of such topics will be brief; in those cases, we will recommend consultation of the extant entries for a more detailed treatment.
 这些问题中的每一个都承认我们将依次考虑的各种规格和答案。我们的重点将主要放在理论和分类学上，因此我们只会偶尔参考历史资料。我们的主题是抽象而广泛的，并触及了形而上学中的许多问题，这些问题已经在本百科全书中得到了涵盖。我们对此类主题的讨论将简短;在这些情况下，我们建议查阅现存的条目以进行更详细的处理。
 
--   [1\. Contrast](#Cont)
-    -   [1.1 No Contrast: the Umbrella View](#NoContUmbrView)
-        1.1 无对比度：伞视图
-    -   [1.2 Contrast: Objects vs. Properties](#ContObjeVsProp)
-        -   [1.2.1 Objects are Subjects; Properties are Predicates](#ObjeSubjPropPred)
-            1.2.1 客体是主体;Properties are Predicates
-        -   [1.2.2 Objects are in Space and Time; Properties are Not](#ObjeSpacTimePropNot)
-            1.2.2 物体在空间和时间中;属性不是
-        -   [1.2.3 Objects are Singly-Located; Properties May Multiply Locate](#ObjeSingLocaPropMayMultLoca)
-            1.2.3 对象位于单一位置;属性可能会成倍定位
-        -   [1.2.4 Objects are Concrete; Properties are Abstract](#ObjeConcPropAbst)
-            1.2.4 对象是具体的;属性是抽象的
-        -   [1.2.5 Objects don’t obey the Identity of Indiscernibles; properties do](#ObjeDontObeyIdenIndiPropDo)
-            1.2.5 对象不服从不可辨别对象的同一性;properties 执行
-        -   [1.2.6 Objects are Sense-Perceptible; Properties are Not](#ObjeSensPercPropNot)
-            1.2.6 对象是可感知的;属性不是
-        -   [1.2.7 Objects are Uninstantiated; Properties are Instantiated](#ObjeUninPropInst)
-            1.2.7 对象未实例化;实例化属性
-    -   [1.3 Contrast: Objects vs. Subjects](#ContObjeVsSubj)
-        1.3 对比：对象与主体
--   [2\. Extension](#Exte)
-    -   [2.1 The Ontological Question](#OntoQues)
-        -   [2.1.1 Existence Nihilism](#ExisNihi)
-            2.1.1 存在虚无主义
-        -   [2.1.2 Existence Monism](#ExisMoni)
-            2.1.2 存在一元论
-        -   [2.1.3 Existence Pluralism](#ExisPlur)
-            2.1.3 存在多元主义
-    -   [2.2 The Extension Question](#ExteQues)
-        -   [2.2.1 Ordinary Objects](#OrdiObje)
-            2.2.1 普通对象
-        -   [2.2.2 Special Composition Question](#SpecCompQues)
-            2.2.2 特殊作文题
--   [3\. Nature](#Natu)
-    -   [3.1 What Objects Do](#WhatObjeDo) 3.1 对象的作用
-    -   [3.2 What Objects Are](#WhatObje)
-        -   [3.2.1 Constituent Ontologies](#ConsOnto)
-            3.2.1 构成本体
-        -   [3.2.2 Relational Ontologies](#RelaOnto)
-            3.2.2 关系本体
+- [Object 对象](#object-对象)
+  - [1. Contrast 对比](#1-contrast-对比)
+    - [1.1 No Contrast: the Umbrella View 无对比度：伞视图](#11-no-contrast-the-umbrella-view-无对比度伞视图)
+    - [1.2 Contrast: Objects vs. Properties 对比度：对象与属性](#12-contrast-objects-vs-properties-对比度对象与属性)
+      - [1.2.1 Objects are Subjects; Properties are Predicates](#121-objects-are-subjects-properties-are-predicates)
+      - [1.2.2 Objects are in Space and Time; Properties are Not](#122-objects-are-in-space-and-time-properties-are-not)
+      - [1.2.3 Objects are Singly-Located; Properties May Multiply Locate](#123-objects-are-singly-located-properties-may-multiply-locate)
+      - [1.2.4 Objects are Concrete; Properties are Abstract](#124-objects-are-concrete-properties-are-abstract)
+      - [1.2.5 Objects don’t obey the Identity of Indiscernibles; properties do](#125-objects-dont-obey-the-identity-of-indiscernibles-properties-do)
+      - [1.2.6 Objects are Sense-Perceptible; Properties are Not](#126-objects-are-sense-perceptible-properties-are-not)
+      - [1.2.7 Objects are Uninstantiated; Properties are Instantiated](#127-objects-are-uninstantiated-properties-are-instantiated)
+    - [1.3 Contrast: Objects vs. Subjects](#13-contrast-objects-vs-subjects)
+  - [2. Extension 扩展](#2-extension-扩展)
+    - [2.1 The Ontological Question](#21-the-ontological-question)
+      - [2.1.1 Existence Nihilism](#211-existence-nihilism)
+      - [2.1.2 Existence Monism](#212-existence-monism)
+      - [2.1.3 Existence Pluralism](#213-existence-pluralism)
+        - [Nominalism 唯名论](#nominalism-唯名论)
+        - [Miscellaneous 杂项](#miscellaneous-杂项)
+    - [2.2 The Extension Question](#22-the-extension-question)
+      - [2.2.1 Ordinary Objects](#221-ordinary-objects)
+      - [2.2.2 Special Composition Question](#222-special-composition-question)
+  - [3. Nature 自然](#3-nature-自然)
+    - [3.1 What Objects Do 3.1 对象的作用](#31-what-objects-do-31-对象的作用)
+    - [3.2 What Objects Are](#32-what-objects-are)
+      - [3.2.1 Constituent Ontologies](#321-constituent-ontologies)
+        - [Bundle theory 束理论](#bundle-theory-束理论)
+        - [Bare particularism 赤裸的特殊主义](#bare-particularism-赤裸的特殊主义)
+        - [Hylomorphism 同态性](#hylomorphism-同态性)
+      - [3.2.2 Relational Ontologies 关系本体](#322-relational-ontologies-关系本体)
+        - [Objects as blobs 作为 blob 的对象](#objects-as-blobs-作为-blob-的对象)
+        - [Platonism 柏拉图哲学](#platonism-柏拉图哲学)
+        - [Class Nominalism 类名词主义](#class-nominalism-类名词主义)
 
 ---
 
