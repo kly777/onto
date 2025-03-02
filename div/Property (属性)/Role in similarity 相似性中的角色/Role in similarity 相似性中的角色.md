@@ -1,0 +1,3 @@
+
+The traditional conception of similarity holds that properties are responsible for similarity: two objects are similar because they have a property in common. The more properties they share, the more similar they are. They resemble each other exactly if they share all their properties.[20][21] For this conception of similarity to work, it is important that only properties relevant to resemblance are taken into account, sometimes referred to as sparse properties in contrast to abundant properties.[22][19]
+传统的相似性概念认为，属性是造成相似性的原因：两个对象相似是因为它们具有共同的属性。它们共享的属性越多，它们就越相似。如果它们共享所有属性，则它们彼此完全相同。[20][21] 对于这种与工作的相似性概念，重要的是只考虑与相似性相关的属性，有时被称为稀疏属性，与丰富属性相反。[22][19]

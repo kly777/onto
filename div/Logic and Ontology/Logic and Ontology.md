@@ -1,4 +1,3 @@
-# Logic and Ontology
 First published Mon Oct 4, 2004; substantive revision Mon Mar 13, 2023
 
 A number of important philosophical problems are at the intersection of logic and ontology. Both logic and ontology are diverse fields within philosophy and, partly because of this, there is not one single philosophical problem about the relation between them. In this survey article we will first discuss what different philosophical projects are carried out under the headings of “logic” and “ontology” and then we will look at several areas where logic and ontology overlap.

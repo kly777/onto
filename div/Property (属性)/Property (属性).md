@@ -1,0 +1,5 @@
+
+From Wikipedia, the free encyclopedia
+
+In logic and philosophy (especially metaphysics), a property is a characteristic of an object; for example, a red object is said to have the property of redness. The property may be considered a form of object in its own right, able to possess other properties. A property, however, differs from individual objects in that it may be instantiated, and often in more than one object. It differs from the logical and mathematical concept of class by not having any concept of extensionality, and from the philosophical concept of class in that a property is considered to be distinct from the objects which possess it. Understanding how different individual entities (or particulars) can in some sense have some of the same properties is the basis of the problem of universals.
+在逻辑和哲学（尤其是形而上学）中，属性是对象的特征。例如，红色对象被称为具有"红色性"(redness)属性。属性本身可被视为独立存在的抽象实体，能够拥有其他属性。属性不同于具体对象之处在于它可以被多重实例化，通常存在于多个对象中。它与逻辑和数学的类概念不同，因其不包含外延性概念；与哲学的类概念不同，属性被认为独立于拥有它的对象。理解不同个体实体（殊相）如何在某种意义上具有相同属性，构成了共相问题的核心。
