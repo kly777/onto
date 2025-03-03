@@ -60,4 +60,4 @@ def process_md_file(input_file, output_dir="."):
             f.write(content)
 
 
-process_md_file("./relation/relation(sep)A.md", "div")
+process_md_file("./BFO_H.md", "div")
