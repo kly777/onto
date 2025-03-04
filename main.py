@@ -1,5 +1,5 @@
-from translator import Translator
-from suit import TextProcessor
+from tools.translator import Translator
+from tools.suit import TextProcessor
 import json
 
 config = json.load(open("./config.json", "r"))
