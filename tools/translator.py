@@ -73,8 +73,9 @@ class Translator:
     # endregion
 
     def process_file(self, input_path, output_path):
-        MAX_CONCURRENT = 350
+
         lines = self.read_file_safely(input_path)
+        MAX_CONCURRENT = min(300, len(lines) - 1)
         with ThreadPoolExecutor(max_workers=MAX_CONCURRENT * 2) as executor:
             task_queue = [(idx, line) for idx, line in lines]
             futures = {}

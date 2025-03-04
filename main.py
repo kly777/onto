@@ -13,8 +13,7 @@ processor = TextProcessor(
 translator = Translator(
     api_key=config["ds_api_key"],
 )
-print(config)
 
 MID = "MID.md"
-processor.process_file(input_path="try.md", output_path=MID)
-translator.process_file(input_path=MID, output_path="out.md")
+# processor.process_file(input_path="Category.md", output_path=MID)
+translator.process_file(input_path="Category.md", output_path="CategoryT.md")
