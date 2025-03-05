@@ -1,5 +1,5 @@
 /.vscode
 /.chunk_cache
 /.venv
-/__pycache__
+**/__pycache__/
 config.json
