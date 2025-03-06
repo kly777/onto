@@ -73,7 +73,7 @@ class Translator:
     # endregion
 
     def process_file(self, input_path, output_path):
-
+        # TODO: 拆分
         lines = self.read_file_safely(input_path)
         MAX_CONCURRENT = min(300, len(lines) - 1)
         with ThreadPoolExecutor(max_workers=MAX_CONCURRENT * 2) as executor:
