@@ -5,8 +5,6 @@ import re
 def sanitize_filename(name):
     # 替换文件系统中不允许的字符为下划线
     return re.sub(r'[\\/*?:"<>|]', "_", name)
-
-
 def process_md_file(input_file, output_dir="."):
     stack = []
     heading_re = re.compile(r"^(#{1,6})\s+(.+)$")
@@ -21,8 +19,6 @@ def process_md_file(input_file, output_dir="."):
             level = len(match.group(1))
             raw_title = match.group(2).strip()
             title = sanitize_filename(raw_title)
-
-            # Pop stack elements with level >= current level
             while stack and stack[-1]["level"] >= level:
                 popped = stack.pop()
                 md_path = os.path.join(popped["dir_path"], f"{popped['title']}.md")

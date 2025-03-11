@@ -143,11 +143,11 @@ class TextProcessor:
         # 初始化上下文窗口（改为使用本地摘要）
         context_window = []
 
-        # 【核心修改点1】使用并行处理代替串行循环
+        # 使用并行处理代替串行循环
         # 并行处理所有块（自动处理上下文）
         sorted_results = self._parallel_processing(chunks, context_window)
 
-        # 【核心修改点2】重组处理结果
+
         self.md_output = [""] * len(chunks)
         local_context = []  # 本地维护的上下文队列
 
